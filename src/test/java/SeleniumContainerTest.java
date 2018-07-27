@@ -15,6 +15,8 @@ import static org.testcontainers.containers.BrowserWebDriverContainer.VncRecordi
  */
 public class SeleniumContainerTest {
 
+    //B
+
     @Rule
     public BrowserWebDriverContainer chrome = new BrowserWebDriverContainer()
             .withDesiredCapabilities(DesiredCapabilities.chrome())
