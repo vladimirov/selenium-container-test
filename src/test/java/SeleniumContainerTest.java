@@ -27,16 +27,13 @@ public class SeleniumContainerTest {
         driver.get("https://wikipedia.org");
         WebElement searchInput = driver.findElementByName("search");
 
-        searchInput.sendKeys("Rick Astley");
+        searchInput.sendKeys("Eminem");
         searchInput.submit();
-
-        WebElement otherPage = driver.findElementByLinkText("Rickrolling");
-        otherPage.click();
 
         boolean expectedTextFound = driver.findElementsByCssSelector("p")
                 .stream()
-                .anyMatch(element -> element.getText().contains("meme"));
+                .anyMatch(element -> element.getText().contains("rapper"));
 
-        assertTrue("The word 'meme' is found on a page about rickrolling", expectedTextFound);
+        assertTrue("The word 'rapper' is found on a page", expectedTextFound);
     }
 }
