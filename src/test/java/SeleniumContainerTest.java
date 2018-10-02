@@ -12,18 +12,14 @@ import static org.testcontainers.containers.BrowserWebDriverContainer.VncRecordi
 /**
  * Simple example of plain Selenium usage.
  */
-public class SeleniumContainerTest {
 
-//    @Rule
-//    public BrowserWebDriverContainer chrome = new BrowserWebDriverContainer()
-//            .withDesiredCapabilities(DesiredCapabilities.chrome())
-//            .withRecordingMode(RECORD_ALL, new File("target"));
+public class SeleniumContainerTest {
 
     @Test
     public void simplePlainSeleniumTest() {
         BrowserWebDriverContainer chrome = new BrowserWebDriverContainer()
-            .withDesiredCapabilities(DesiredCapabilities.chrome())
-            .withRecordingMode(RECORD_ALL, new File("target"));
+                .withDesiredCapabilities(DesiredCapabilities.chrome())
+                .withRecordingMode(RECORD_ALL, new File("target"));
         chrome.start();
 
         RemoteWebDriver driver = chrome.getWebDriver();
