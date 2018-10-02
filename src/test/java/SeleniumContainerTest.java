@@ -2,6 +2,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testcontainers.containers.BrowserWebDriverContainer;
+import org.testcontainers.containers.DefaultRecordingFileFactory;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.File;
@@ -15,13 +18,24 @@ import static org.testcontainers.containers.BrowserWebDriverContainer.VncRecordi
 
 public class SeleniumContainerTest {
 
+    public BrowserWebDriverContainer chrome = new BrowserWebDriverContainer()
+            .withDesiredCapabilities(DesiredCapabilities.chrome())
+            .withRecordingMode(RECORD_ALL, new File("target"));
+
+    @BeforeTest
+    public void setUp(){
+        System.out.println("Starting container...");
+        chrome.start();
+    }
+
+    @AfterTest
+    public void testDown(){
+        System.out.println("Stopping container...");
+        chrome.stop();
+    }
+
     @Test
     public void simplePlainSeleniumTest() {
-        BrowserWebDriverContainer chrome = new BrowserWebDriverContainer()
-                .withDesiredCapabilities(DesiredCapabilities.chrome())
-                .withRecordingMode(RECORD_ALL, new File("target"));
-        chrome.start();
-
         RemoteWebDriver driver = chrome.getWebDriver();
         driver.get("https://wikipedia.org");
         WebElement searchInput = driver.findElementByName("search");

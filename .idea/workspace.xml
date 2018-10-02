@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77c47a2e-b238-49ac-90b1-a268366b8a86" name="Default" comment="test sample">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="77c47a2e-b238-49ac-90b1-a268366b8a86" name="Default" comment="project dependencies updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-container-test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -79,23 +77,55 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="913736016">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="112" />
+          <entry key="txt" value="42" />
+          <entry key="xml" value="32" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="112" />
+          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="XML" value="32" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="85">
+              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="86" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+            <state relative-caret-position="230">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -133,11 +163,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="selenium-container-test-junit" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="selenium-container-test-testng" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="selenium-container-test-junit" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="selenium-container-test-testng" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -160,44 +190,44 @@
         <subPane>
           <expand>
             <path>
-              <item name="selenium-container-test-junit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium-container-test-junit" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-container-test-testng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-container-test-testng" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="selenium-container-test-junit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium-container-test-junit" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-container-test-testng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-container-test-testng" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="selenium-container-test-junit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium-container-test-junit" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-container-test-testng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-container-test-testng" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="selenium-container-test-junit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium-container-test-junit" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-container-test-testng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-container-test-testng" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="selenium-container-test-junit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium-container-test-junit" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-container-test-testng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-container-test-testng" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538504307209" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538509050911" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../selenium-container-test-junit" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -224,6 +254,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SeleniumContainerTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-container-test-testng" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumContainerTest" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -232,6 +273,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SeleniumContainerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -251,19 +297,24 @@
       <option name="project" value="LOCAL" />
       <updated>1537888518616</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="project name changed">
+      <created>1538504507267</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538504507267</updated>
+    </task>
+    <task id="LOCAL-00003" summary="project dependencies updated">
+      <created>1538505038131</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1538505038131</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeleniumContainerTest - 2018.09.25 at 18h 04m 16s.xml">
-      <configuration name="SeleniumContainerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeleniumContainerTest - 2018.09.25 at 18h 10m 32s.xml">
-      <configuration name="SeleniumContainerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeleniumContainerTest - 2018.09.25 at 18h 11m 23s.xml">
-      <configuration name="SeleniumContainerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SeleniumContainerTest - 2018.09.25 at 18h 13m 59s.xml">
       <configuration name="SeleniumContainerTest" configurationId="JUnit" />
     </history-entry>
@@ -285,12 +336,21 @@
     <history-entry file="SeleniumContainerTest - 2018.10.02 at 21h 14m 44s.xml">
       <configuration name="SeleniumContainerTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="SeleniumContainerTest - 2018.10.02 at 22h 30m 57s.xml">
+      <configuration name="SeleniumContainerTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SeleniumContainerTest - 2018.10.02 at 22h 32m 42s.xml">
+      <configuration name="SeleniumContainerTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SeleniumContainerTest - 2018.10.02 at 22h 33m 49s.xml">
+      <configuration name="SeleniumContainerTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28895614" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2118003" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -299,7 +359,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47020933" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.85024154" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -323,7 +383,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test sample" />
-    <option name="LAST_COMMIT_MESSAGE" value="test sample" />
+    <MESSAGE value="project name changed" />
+    <MESSAGE value="project dependencies updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="project dependencies updated" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback-test.xml">
@@ -340,17 +402,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        <state relative-caret-position="230">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+        <state relative-caret-position="85">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="86" />
         </state>
       </provider>
     </entry>
