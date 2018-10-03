@@ -2,7 +2,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testcontainers.containers.BrowserWebDriverContainer;
-import org.testcontainers.containers.DefaultRecordingFileFactory;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -23,13 +22,13 @@ public class SeleniumContainerTest {
             .withRecordingMode(RECORD_ALL, new File("target"));
 
     @BeforeTest
-    public void setUp(){
+    public void setUp() {
         System.out.println("Starting container...");
         chrome.start();
     }
 
     @AfterTest
-    public void testDown(){
+    public void testDown() {
         System.out.println("Stopping container...");
         chrome.stop();
     }
