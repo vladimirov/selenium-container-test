@@ -17,19 +17,17 @@ import static org.testcontainers.containers.BrowserWebDriverContainer.VncRecordi
 
 public class SeleniumContainerTest {
 
-    public BrowserWebDriverContainer chrome = new BrowserWebDriverContainer()
+    public static final BrowserWebDriverContainer chrome = new BrowserWebDriverContainer()
             .withDesiredCapabilities(DesiredCapabilities.chrome())
             .withRecordingMode(RECORD_ALL, new File("target"));
 
     @BeforeTest
     public void setUp() {
-        System.out.println("Starting container...");
         chrome.start();
     }
 
     @AfterTest
     public void testDown() {
-        System.out.println("Stopping container...");
         chrome.stop();
     }
 
@@ -45,4 +43,6 @@ public class SeleniumContainerTest {
                 .anyMatch(element -> element.getText().contains("rapper"));
         assertTrue("The word 'rapper' is found on a page", expectedTextFound);
     }
+
+
 }
