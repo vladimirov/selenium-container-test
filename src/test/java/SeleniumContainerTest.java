@@ -17,7 +17,7 @@ import static org.testcontainers.containers.BrowserWebDriverContainer.VncRecordi
 
 public class SeleniumContainerTest {
 
-    public static final BrowserWebDriverContainer chrome = new BrowserWebDriverContainer()
+    public final BrowserWebDriverContainer chrome = new BrowserWebDriverContainer()
             .withDesiredCapabilities(DesiredCapabilities.chrome())
             .withRecordingMode(RECORD_ALL, new File("target"));
 
