@@ -7,6 +7,9 @@
     <groupId>selenium-container-test-testng</groupId>
     <artifactId>selenium-container-test-testng</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <packaging>pom</packaging>
+
     <build>
         <plugins>
             <plugin>
@@ -21,11 +24,38 @@
         </plugins>
     </build>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <testcontainers.group>com.github.testcontainers.testcontainers-java</testcontainers.group>
+        <testcontainers.version>-SNAPSHOT</testcontainers.version>
+    </properties>
+
+    <profiles>
+        <profile>
+            <id>1</id>
+
+            <activation>
+                <os>
+                    <family>Windows</family>
+                </os>
+            </activation>
+            <properties>
+                <testcontainers.version>windows-support-SNAPSHOT</testcontainers.version>
+            </properties>
+        </profile>
+    </profiles>
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>org.testcontainers</groupId>
             <artifactId>selenium</artifactId>
-            <version>1.8.0</version>
+            <version>1.9.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -48,6 +78,26 @@
             <groupId>com.codeborne</groupId>
             <artifactId>selenide</artifactId>
             <version>3.5</version>
+        </dependency>
+        <!-- Project lombok for additional safety/convenience support -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.6</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- Test dependencies -->
+        <dependency>
+            <groupId>org.rnorth.visible-assertions</groupId>
+            <artifactId>visible-assertions</artifactId>
+            <version>1.0.5</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.9.5</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 </project>

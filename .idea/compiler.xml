@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="selenium-container-test" />
         <module name="selenium-container-test-junit" />
-        <module name="selenium-container-test-testng" />
       </profile>
     </annotationProcessing>
   </component>

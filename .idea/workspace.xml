@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77c47a2e-b238-49ac-90b1-a268366b8a86" name="Default" comment="selenide sample added">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java" afterDir="false" />
@@ -82,28 +83,28 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="440" />
+          <entry key="java" value="441" />
           <entry key="txt" value="64" />
-          <entry key="xml" value="159" />
+          <entry key="xml" value="206" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="440" />
+          <entry key="JAVA" value="441" />
           <entry key="PLAIN_TEXT" value="64" />
-          <entry key="XML" value="159" />
+          <entry key="XML" value="206" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -124,23 +125,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="255">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1155#1156#0" expanded="true" />
+                <element signature="e#1184#1185#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="15" column="31" selection-start-line="14" selection-start-column="40" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="1478">
+              <caret line="102" column="10" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -165,8 +168,8 @@
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/logback-test.xml" />
         <option value="$PROJECT_DIR$/src/test/java/CustomTestListener.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -199,10 +202,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="-1778" />
+    <option name="y" value="35" />
+    <option name="width" value="1658" />
+    <option name="height" value="1016" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -210,6 +213,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,12 +257,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539183263160" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539268411963" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../selenium-container-test-junit" />
   </component>
   <component name="RunDashboard">
@@ -372,19 +375,17 @@
       <option name="project" value="LOCAL" />
       <updated>1539099697668</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="selenide sample added">
+      <created>1539260334739</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1539260334739</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeleniumContainerTest - 2018.10.04 at 10h 45m 08s.xml">
-      <configuration name="SeleniumContainerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SeleniumContainerTest - 2018.10.04 at 10h 52m 09s.xml">
-      <configuration name="SeleniumContainerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SeleniumContainerTest - 2018.10.04 at 10h 56m 01s.xml">
-      <configuration name="SeleniumContainerTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SeleniumContainerTest - 2018.10.04 at 11h 45m 40s.xml">
       <configuration name="SeleniumContainerTest" configurationId="TestNG" />
     </history-entry>
@@ -406,12 +407,20 @@
     <history-entry file="SeleniumContainerTest - 2018.10.10 at 17h 36m 25s.xml">
       <configuration name="SeleniumContainerTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="SeleniumContainerTest - 2018.10.11 at 16h 50m 05s.xml">
+      <configuration name="SeleniumContainerTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SeleniumContainerTest - 2018.10.11 at 17h 28m 50s.xml">
+      <configuration name="SeleniumContainerTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SeleniumContainerTest - 2018.10.11 at 17h 29m 55s.xml">
+      <configuration name="SeleniumContainerTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24200426" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24466951" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -420,7 +429,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23258306" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43944266" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.62700963" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -488,27 +497,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="15" column="31" selection-start-line="14" selection-start-column="40" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RulesListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RulesListener.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="255">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1478">
+          <caret line="102" column="10" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
         </state>
       </provider>
     </entry>
