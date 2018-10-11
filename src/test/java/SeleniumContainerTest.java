@@ -1,10 +1,13 @@
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
+
+
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testcontainers.containers.BrowserWebDriverContainer;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.io.File;
@@ -42,18 +45,5 @@ public class SeleniumContainerTest {
         assertTrue("The word 'rapper' is found on a page", expectedTextFound);
 
     }
-
-//    @Test
-//    public void simplePlainSeleniumTest() {
-//        RemoteWebDriver driver = chrome.getWebDriver();
-//        driver.get("https://wikipedia.org");
-//        WebElement searchInput = driver.findElementByName("search");
-//        searchInput.sendKeys("Eminem");
-//        searchInput.submit();
-//        boolean expectedTextFound = driver.findElementsByCssSelector("p")
-//                .stream()
-//                .anyMatch(element -> element.getText().contains("rapper"));
-//        assertTrue("The word 'rapper' is found on a page", expectedTextFound);
-//    }
 
 }
