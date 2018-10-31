@@ -4,6 +4,7 @@
     <test name="Container Test">
         <classes>
             <class name="SeleniumContainerTest"/>
+            <!--<class name="SeleniumContainerRecordTest"/>-->
         </classes>
     </test>
 </suite>

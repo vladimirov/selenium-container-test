@@ -15,15 +15,16 @@ import static com.codeborne.selenide.Selenide.$;
 import static org.rnorth.visibleassertions.VisibleAssertions.assertTrue;
 
 
-public class SeleniumContainerTest {
+public class SeleniumContainerRecordTest {
 
     private static BrowserWebDriverContainer chrome = new BrowserWebDriverContainer<>()
             .withDesiredCapabilities(DesiredCapabilities.chrome())
             .withNetwork(Network.SHARED)
             .withNetworkAliases("vnchost")
-            .withRecordingMode(BrowserWebDriverContainer.VncRecordingMode.SKIP, null);
+            .withRecordingMode(BrowserWebDriverContainer.VncRecordingMode.RECORD_ALL, new File("target/"));
 
     private static VncRecordingContainer vnc = new VncRecordingContainer(chrome);
+
 
     @BeforeClass
     public static void setUp() {
@@ -39,6 +40,7 @@ public class SeleniumContainerTest {
 
     @Test
     public void test() {
+
         vnc.start();
 
         Selenide.open("https://wikipedia.org");
@@ -48,7 +50,7 @@ public class SeleniumContainerTest {
                 .anyMatch(element -> element.getText().contains("rapper"));
         assertTrue("The word 'rapper' is found on a page", expectedTextFound);
 
-        vnc.saveRecordingToFile(new File("target/" + System.currentTimeMillis() + ".flv"));
+//        vnc.saveRecordingToFile(new File("target/" + System.currentTimeMillis() + ".flv"));
         vnc.stop();
     }
 

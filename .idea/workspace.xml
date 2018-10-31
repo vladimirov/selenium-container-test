@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77c47a2e-b238-49ac-90b1-a268366b8a86" name="Default" comment="pom.xml updated">
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebDriverContainerTest.java" afterDir="false" />
+    <list default="true" id="77c47a2e-b238-49ac-90b1-a268366b8a86" name="Default" comment="in progress">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumContainerRecordTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebDriverContainerTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -83,75 +83,72 @@
     <session id="913736016">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="644" />
-          <entry key="txt" value="64" />
-          <entry key="xml" value="248" />
+          <entry key="java" value="871" />
+          <entry key="txt" value="75" />
+          <entry key="xml" value="256" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="644" />
-          <entry key="PLAIN_TEXT" value="64" />
-          <entry key="XML" value="248" />
+          <entry key="JAVA" value="871" />
+          <entry key="PLAIN_TEXT" value="75" />
+          <entry key="XML" value="256" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="3" />
-          <entry key="java" value="9" />
-          <entry key="xml" value="10" />
+          <entry key="class" value="7" />
+          <entry key="java" value="13" />
+          <entry key="xml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="9" />
-          <entry key="XML" value="10" />
+          <entry key="CLASS" value="7" />
+          <entry key="JAVA" value="13" />
+          <entry key="XML" value="15" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumContainerRecordTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/WebDriverContainerTest.java">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="43" selection-start-line="43" selection-end-line="44" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="119">
+              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -176,9 +173,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/logback-test.xml" />
         <option value="$PROJECT_DIR$/src/test/java/CustomTestListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/WebDriverContainerTest.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/GoogleTestWithDocker.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SeleniumContainerRecordTest.java" />
       </list>
     </option>
   </component>
@@ -211,7 +210,9 @@
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -269,8 +270,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540919355001" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540991180039" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jdk10_junit_testcontainers" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -284,9 +285,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SeleniumContainerTest">
+  <component name="RunManager" selected="TestNG.SeleniumContainerRecordTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleTestWithDocker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-container-test-testng" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GoogleTestWithDocker" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -301,6 +311,17 @@
       <module name="selenium-container-test-testng" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumContainerRecordTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-container-test-testng" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumContainerRecordTest" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -342,10 +363,14 @@
       <item itemvalue="TestNG.SeleniumContainerTest" />
       <item itemvalue="TestNG.C:/Projects/selenium-container-test-testng/testng.xml" />
       <item itemvalue="TestNG.WebDriverContainerTest" />
+      <item itemvalue="JUnit.GoogleTestWithDocker" />
+      <item itemvalue="TestNG.SeleniumContainerRecordTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SeleniumContainerRecordTest" />
         <item itemvalue="TestNG.SeleniumContainerTest" />
+        <item itemvalue="JUnit.GoogleTestWithDocker" />
         <item itemvalue="TestNG.WebDriverContainerTest" />
         <item itemvalue="TestNG.C:/Projects/selenium-container-test-testng/testng.xml" />
       </list>
@@ -404,45 +429,53 @@
       <option name="project" value="LOCAL" />
       <updated>1539260334739</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="in progress">
+      <created>1540919378064</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540919378064</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeleniumContainerTest - 2018.10.10 at 17h 36m 25s.xml">
+    <history-entry file="GoogleTestWithDocker - 2018.10.31 at 12h 50m 51s.xml">
+      <configuration name="GoogleTestWithDocker" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoogleTestWithDocker - 2018.10.31 at 12h 53m 11s.xml">
+      <configuration name="GoogleTestWithDocker" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumContainerTest - 2018.10.31 at 12h 56m 36s.xml">
       <configuration name="SeleniumContainerTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumContainerTest - 2018.10.11 at 16h 50m 05s.xml">
+    <history-entry file="SeleniumContainerTest - 2018.10.31 at 13h 59m 05s.xml">
       <configuration name="SeleniumContainerTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumContainerTest - 2018.10.11 at 17h 28m 50s.xml">
+    <history-entry file="SeleniumContainerTest - 2018.10.31 at 13h 59m 27s.xml">
       <configuration name="SeleniumContainerTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumContainerTest - 2018.10.11 at 17h 29m 55s.xml">
-      <configuration name="SeleniumContainerTest" configurationId="TestNG" />
+    <history-entry file="SeleniumContainerRecordTest - 2018.10.31 at 14h 38m 40s.xml">
+      <configuration name="SeleniumContainerRecordTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumContainerTest - 2018.10.16 at 16h 49m 15s.xml">
-      <configuration name="SeleniumContainerTest" configurationId="TestNG" />
+    <history-entry file="SeleniumContainerRecordTest - 2018.10.31 at 14h 41m 07s.xml">
+      <configuration name="SeleniumContainerRecordTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumContainerTest - 2018.10.16 at 16h 52m 12s.xml">
-      <configuration name="SeleniumContainerTest" configurationId="TestNG" />
+    <history-entry file="SeleniumContainerRecordTest - 2018.10.31 at 14h 42m 43s.xml">
+      <configuration name="SeleniumContainerRecordTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumContainerTest - 2018.10.16 at 16h 53m 00s.xml">
-      <configuration name="SeleniumContainerTest" configurationId="TestNG" />
+    <history-entry file="SeleniumContainerRecordTest - 2018.10.31 at 14h 45m 20s.xml">
+      <configuration name="SeleniumContainerRecordTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumContainerTest - 2018.10.30 at 11h 31m 41s.xml">
-      <configuration name="SeleniumContainerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WebDriverContainerTest - 2018.10.30 at 11h 34m 48s.xml">
-      <configuration name="WebDriverContainerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SeleniumContainerTest - 2018.10.30 at 18h 52m 48s.xml">
-      <configuration name="SeleniumContainerTest" configurationId="TestNG" />
+    <history-entry file="SeleniumContainerRecordTest - 2018.10.31 at 14h 48m 12s.xml">
+      <configuration name="SeleniumContainerRecordTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -450,8 +483,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3965702" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13504823" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.62700963" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -479,7 +512,8 @@
     <MESSAGE value="project dependencies updated" />
     <MESSAGE value="project updated" />
     <MESSAGE value="selenide sample added" />
-    <option name="LAST_COMMIT_MESSAGE" value="selenide sample added" />
+    <MESSAGE value="in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="in progress" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/testcontainers/testcontainers/1.8.0/testcontainers-1.8.0.jar!/org/testcontainers/shaded/io/netty/channel/AbstractChannelHandlerContext.class">
@@ -513,41 +547,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/GoogleTestWithDocker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="340">
+          <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testcontainers/testcontainers/1.9.1/testcontainers-1.9.1.jar!/org/testcontainers/containers/VncRecordingContainer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="389">
+          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WebDriverContainerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
+        <state relative-caret-position="712">
           <caret line="43" selection-start-line="43" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testcontainers/testcontainers/1.9.1/testcontainers-1.9.1.jar!/org/testcontainers/containers/VncRecordingContainer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1165">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testcontainers/selenium/1.9.1/selenium-1.9.1.jar!/org/testcontainers/containers/BrowserWebDriverContainer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="194" column="21" lean-forward="true" selection-start-line="194" selection-start-column="21" selection-end-line="195" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumContainerRecordTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
