@@ -3,8 +3,8 @@
 <suite name="Suite1" verbose="1">
     <test name="Container Test">
         <classes>
-            <class name="SeleniumContainerTest"/>
-            <!--<class name="SeleniumContainerRecordTest"/>-->
+            <class name="RecordNameTest"/>
+            <!--<class name="SeleniumContainerTest"/>-->
         </classes>
     </test>
 </suite>

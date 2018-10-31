@@ -15,13 +15,13 @@ import static com.codeborne.selenide.Selenide.$;
 import static org.rnorth.visibleassertions.VisibleAssertions.assertTrue;
 
 
-public class SeleniumContainerRecordTest {
+public class RecordNameTest {
 
     private static BrowserWebDriverContainer chrome = new BrowserWebDriverContainer<>()
             .withDesiredCapabilities(DesiredCapabilities.chrome())
             .withNetwork(Network.SHARED)
             .withNetworkAliases("vnchost")
-            .withRecordingMode(BrowserWebDriverContainer.VncRecordingMode.RECORD_ALL, new File("target/"));
+            .withRecordingMode(BrowserWebDriverContainer.VncRecordingMode.RECORD_ALL, new File("target/" + System.currentTimeMillis() + ".flv"));
 
     private static VncRecordingContainer vnc = new VncRecordingContainer(chrome);
 
