@@ -8,9 +8,7 @@ import org.testcontainers.containers.BrowserWebDriverContainer;
 import org.testcontainers.containers.Network;
 import org.testcontainers.containers.VncRecordingContainer;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.io.File;
 
@@ -28,7 +26,7 @@ public class RecordingNameTest {
 
     private static VncRecordingContainer vnc = new VncRecordingContainer(chrome);
 
-    @BeforeClass
+    @BeforeMethod
     public static void setUp() {
         chrome.start();
         vnc.start();
@@ -36,11 +34,11 @@ public class RecordingNameTest {
         WebDriverRunner.setWebDriver(driver);
     }
 
-    @AfterClass
+    @AfterMethod
     public static void tearDown(ITestResult result) {
         if (ITestResult.SUCCESS == result.getStatus()) {
             try {
-                vnc.saveRecordingToFile(new File("target/PASSED" + System.currentTimeMillis() + ".flv"));
+                vnc.saveRecordingToFile(new File("target/PASSED-" + System.currentTimeMillis() + ".flv"));
             } catch (Exception e) {
                 System.out.println("Exception while taking video " + e.getMessage());
             }
