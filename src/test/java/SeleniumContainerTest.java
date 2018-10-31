@@ -5,6 +5,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testcontainers.containers.BrowserWebDriverContainer;
 import org.testcontainers.containers.Network;
 import org.testcontainers.containers.VncRecordingContainer;
+import org.testng.ITestListener;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -28,28 +29,26 @@ public class SeleniumContainerTest {
     @BeforeClass
     public static void setUp() {
         chrome.start();
+        vnc.start();
         RemoteWebDriver driver = chrome.getWebDriver();
         WebDriverRunner.setWebDriver(driver);
     }
 
     @AfterClass
     public static void tearDown() {
+        vnc.saveRecordingToFile(new File("target/" + System.currentTimeMillis() + ".flv"));
+        vnc.stop();
         chrome.stop();
     }
 
     @Test
     public void test() {
-        vnc.start();
-
         Selenide.open("https://wikipedia.org");
         $("input#searchInput").val("Eminem").submit();
         boolean expectedTextFound = Selenide.$$("p")
                 .stream()
                 .anyMatch(element -> element.getText().contains("rapper"));
         assertTrue("The word 'rapper' is found on a page", expectedTextFound);
-
-        vnc.saveRecordingToFile(new File("target/" + System.currentTimeMillis() + ".flv"));
-        vnc.stop();
     }
 
 }
