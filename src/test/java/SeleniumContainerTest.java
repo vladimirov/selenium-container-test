@@ -5,12 +5,11 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testcontainers.containers.BrowserWebDriverContainer;
 import org.testcontainers.containers.Network;
 import org.testcontainers.containers.VncRecordingContainer;
-import org.testng.ITestListener;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
 
 import java.io.File;
+import java.lang.reflect.Method;
 
 import static com.codeborne.selenide.Selenide.$;
 import static org.rnorth.visibleassertions.VisibleAssertions.assertTrue;
@@ -26,7 +25,7 @@ public class SeleniumContainerTest {
 
     private static VncRecordingContainer vnc = new VncRecordingContainer(chrome);
 
-    @BeforeClass
+    @BeforeMethod
     public static void setUp() {
         chrome.start();
         vnc.start();
@@ -34,15 +33,24 @@ public class SeleniumContainerTest {
         WebDriverRunner.setWebDriver(driver);
     }
 
-    @AfterClass
-    public static void tearDown() {
-        vnc.saveRecordingToFile(new File("target/" + System.currentTimeMillis() + ".flv"));
+    @AfterMethod
+    public static void tearDown(ITestResult result, Method m) {
+        try {
+            if (ITestResult.SUCCESS == result.getStatus()) {
+                vnc.saveRecordingToFile(new File("target/PASSED-" + m.getName() + "-" + System.currentTimeMillis() + ".flv"));
+            }
+            if (ITestResult.FAILURE == result.getStatus()) {
+                vnc.saveRecordingToFile(new File("target/FAILED-" + m.getName() + "-" + System.currentTimeMillis() + ".flv"));
+            }
+        } catch (Exception e) {
+            System.out.println("Exception while taking video " + e.getMessage());
+        }
         vnc.stop();
         chrome.stop();
     }
 
     @Test
-    public void test() {
+    public void simpleTest() {
         Selenide.open("https://wikipedia.org");
         $("input#searchInput").val("Eminem").submit();
         boolean expectedTextFound = Selenide.$$("p")

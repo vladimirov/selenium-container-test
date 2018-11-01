@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77c47a2e-b238-49ac-90b1-a268366b8a86" name="Default" comment="added video recording">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RecordingNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RecordingNameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Listener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RecordingNameTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -80,45 +83,47 @@
     <session id="913736016">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="5" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="1407" />
+          <entry key="gitignore" value="8" />
+          <entry key="java" value="1533" />
           <entry key="txt" value="97" />
           <entry key="xml" value="261" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1407" />
-          <entry key="PLAIN_TEXT" value="101" />
+          <entry key="JAVA" value="1533" />
+          <entry key="PLAIN_TEXT" value="109" />
           <entry key="XML" value="261" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="15" />
-          <entry key="flv" value="1" />
-          <entry key="java" value="24" />
+          <entry key="flv" value="2" />
+          <entry key="gitignore" value="1" />
+          <entry key="java" value="28" />
           <entry key="xml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="15" />
-          <entry key="JAVA" value="24" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="28" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="19" />
         </counts>
       </usages-collector>
@@ -129,17 +134,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="39" column="19" lean-forward="true" selection-end-line="53" selection-end-column="1" />
+            <state relative-caret-position="748">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RecordingNameTest.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state>
+              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -168,11 +173,12 @@
         <option value="$PROJECT_DIR$/src/test/java/GoogleTestWithDocker.java" />
         <option value="$PROJECT_DIR$/src/test/java/SeleniumContainerRecordTest.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RecordNameTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Listener.java" />
         <option value="$PROJECT_DIR$/src/test/java/ScreenshotListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/RecordingNameTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -202,8 +208,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -251,6 +257,11 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="selenium-container-test-testng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-container-test-testng" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -260,8 +271,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541021222633" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541082857717" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../selenium-container-test-junit" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -458,27 +469,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeleniumContainerRecordTest - 2018.10.31 at 14h 45m 20s.xml">
-      <configuration name="SeleniumContainerRecordTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SeleniumContainerRecordTest - 2018.10.31 at 14h 48m 12s.xml">
-      <configuration name="SeleniumContainerRecordTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RecordNameTest - 2018.10.31 at 15h 31m 50s.xml">
-      <configuration name="RecordNameTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SeleniumContainerTest - 2018.10.31 at 15h 49m 20s.xml">
-      <configuration name="SeleniumContainerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RecordNameTest - 2018.10.31 at 19h 14m 50s.xml">
-      <configuration name="RecordNameTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SeleniumContainerTest - 2018.10.31 at 22h 13m 20s.xml">
-      <configuration name="SeleniumContainerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SeleniumContainerTest - 2018.10.31 at 22h 16m 40s.xml">
-      <configuration name="SeleniumContainerTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="RecordingNameTest - 2018.10.31 at 23h 04m 35s.xml">
       <configuration name="RecordingNameTest" configurationId="TestNG" />
     </history-entry>
@@ -488,11 +478,33 @@
     <history-entry file="RecordingNameTest - 2018.10.31 at 23h 24m 06s.xml">
       <configuration name="RecordingNameTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="RecordingNameTest - 2018.11.01 at 10h 32m 27s.xml">
+      <configuration name="RecordingNameTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RecordingNameTest - 2018.11.01 at 10h 34m 20s.xml">
+      <configuration name="RecordingNameTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RecordingNameTest - 2018.11.01 at 10h 59m 01s.xml">
+      <configuration name="RecordingNameTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RecordingNameTest - 2018.11.01 at 11h 02m 24s.xml">
+      <configuration name="RecordingNameTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RecordingNameTest - 2018.11.01 at 11h 04m 04s.xml">
+      <configuration name="RecordingNameTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RecordingNameTest - 2018.11.01 at 11h 04m 45s.xml">
+      <configuration name="RecordingNameTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RecordingNameTest - 2018.11.01 at 11h 06m 59s.xml">
+      <configuration name="RecordingNameTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25945538" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21108742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -501,7 +513,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.8115942" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.62700963" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -517,7 +529,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.12481089" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.12473348" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -599,37 +611,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ScreenshotListener.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/RecordingNameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Listener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="289">
+          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/PASSED-simpleTest-1541082488552.flv">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumContainerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="39" column="19" lean-forward="true" selection-end-line="53" selection-end-column="1" />
+        <state relative-caret-position="748">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ScreenshotListener.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RecordingNameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
