@@ -11,7 +11,7 @@ import org.testng.annotations.*;
 import java.io.File;
 import java.lang.reflect.Method;
 
-import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.*;
 import static org.rnorth.visibleassertions.VisibleAssertions.assertTrue;
 
 
@@ -51,9 +51,9 @@ public class SeleniumContainerTest {
 
     @Test
     public void simpleTest() {
-        Selenide.open("https://wikipedia.org");
+        open("https://wikipedia.org");
         $("input#searchInput").val("Eminem").submit();
-        boolean expectedTextFound = Selenide.$$("p")
+        boolean expectedTextFound = $$("p")
                 .stream()
                 .anyMatch(element -> element.getText().contains("rapper"));
         assertTrue("The word 'rapper' is found on a page", expectedTextFound);
